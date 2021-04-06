@@ -1,0 +1,10 @@
+php_flag display_errors on
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^v1/users/([0-9]+)$ v1/controller/user.php?userid=$1 [L]
+RewriteRule ^v1/users/([0-9]+)/darkModeToggle$ v1/controller/user.php?userid=$1&darkModeToggle [L]
+RewriteRule ^v1/users$ v1/controller/user.php [L]
+RewriteRule ^v1/tables$ v1/controller/table.php [L]
