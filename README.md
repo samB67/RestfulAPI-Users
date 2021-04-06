@@ -1,7 +1,7 @@
 # RestfulAPI-Users
 Fun project of a Users API.
 
-###<ins>Set up</ins>
+### <ins>Set up</ins>
 <ol>
 <li>Edit config/config.php file for the correct database credentials.</li>
 <li>Run the following curl command to create tables in your database:</li>
@@ -9,7 +9,9 @@ Fun project of a Users API.
 
 ` curl http://localhost:8888/RestfulAPI-Users/v1/tables`
 
-###<ins>**API Curl Commands**</ins>
+<br>
+
+### <ins>**API Curl Commands**</ins>
 List All Users: 
 <br>
 
