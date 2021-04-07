@@ -60,3 +60,48 @@ Toggle DarkMode:
 `curl --request PATCH 'http://localhost:8888/RestfulAPI-Users/v1/users/2/darkModeToggle' --header 'Authorization: MWZkMzIzYjE3MWYxMWI0YTdjZWJkYjk1N2UzZGJkN2I5YzRjOGQ3OGVjMmY1MWU3MTYxNzcyODc3OQ=='`
 
 <br>
+<br>
+
+### <ins>**Unit tests**</ins>
+<br>
+Test All endpoints
+<br>
+
+`./vendor/bin/phpunit`
+
+<br>
+Test CanGetAllUsers method:
+<br>
+
+`./vendor/bin/phpunit --filter=testCanGetAllUsers`
+
+<br>
+Test SearchForUser method:
+<br>
+
+`./vendor/bin/phpunit --filter=testSearchForUser`
+
+<br>
+Test DeleteAUser method:
+<br>
+
+`./vendor/bin/phpunit --filter=testDeleteAUser`
+
+<br>
+Test CreateAUser method:
+<br>
+
+`./vendor/bin/phpunit --filter=testCreateAUser`
+
+<br>
+Test UpdateAUser method:
+<br>
+
+`./vendor/bin/phpunit --filter=testUpdateAUser`
+
+<br>
+Test ToggleAUserDarkMode method:
+<br>
+
+` ./vendor/bin/phpunit --filter=testToggleAUserDarkMode`
+

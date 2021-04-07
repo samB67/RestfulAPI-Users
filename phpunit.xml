@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit colors="true" verbose="true">
+    <testsuite name="Api suite">
+        <directory>v1/Tests</directory>
+    </testsuite>
+</phpunit>
