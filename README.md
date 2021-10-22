@@ -105,3 +105,4 @@ Test ToggleAUserDarkMode method:
 
 ` ./vendor/bin/phpunit --filter=testToggleAUserDarkMode`
 
+
